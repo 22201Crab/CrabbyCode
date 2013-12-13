@@ -4,6 +4,10 @@ CrabbyCode
 The code used to control a simple robotic crab.
 
 
+#include <Servo.h>
+
+Servo servo1;
+
 int dope = A0;
 int pot = A1;
 int vel = 0;
@@ -15,9 +19,6 @@ int ledr = 11;
 int ledg = 10;
 int ledb = 9;
 
-
-#include <Servo.h>
-Servo servo1;
 
 void setup ()
 {
