@@ -1,9 +1,3 @@
-CrabbyCode
-==========
-
-The code used to control a simple robotic crab.
-
-
 #include <Servo.h>
 
 Servo servo1;
